@@ -25,12 +25,21 @@ Deploy container on Google Cloud Run (docs: https://cloud.google.com/run/docs/de
 
 # Using the API
 
-Supports POST requests to https://api-image-705613906606.us-central1.run.app with your GCS bucket uri to your PDF:
+##Supports POST requests to https://api-image-705613906606.us-central1.run.app with your GCS bucket uri to your PDF
+
+With Requests library:
 ```
 url = "https://api-image-705613906606.us-central1.run.app//process_gcs"
 data = {"gcs_uri": "your bucket uri"}
 
 response = requests.post(url, json=data)
+```
+
+With curl:
+```
+curl -X POST https://api-image-705613906606.us-central1.run.app//process_gcs \
+     -H "Content-Type: application/json" \
+     -d '{"gcs_uri": "your bucket uri"}'
 ```
 
 Test out already created endpoints on your own files in GCS buckets with the `requests` library by running `python test.py`
