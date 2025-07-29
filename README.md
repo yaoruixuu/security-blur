@@ -23,7 +23,9 @@ source your_venv_name/bin/activate
 
 Deploy container on Google Cloud Run (docs: https://cloud.google.com/run/docs/deploying) or any other service provider
 
-Test out already created endpoints on your own files in GCS buckets with `test.py`
+# Using the API
+
+Test out already created endpoints on your own files in GCS buckets with `test.py` at the endpoint: https://api-image-705613906606.us-central1.run.app
 
 Find sample json output files of the API in `example outputs`
 
