@@ -19,7 +19,7 @@ python -m venv your_venv_name
 source your_venv_name/bin/activate
 ```
 
-`cd` into the Dockerfile level directory and create the docker image with `docker build -t your-image-name:tag`
+`cd` into the Dockerfile level directory and create the docker image with the dockerfile by doing `docker build -t your-image-name:tag`
 
 Deploy container on Google Cloud Run (docs: https://cloud.google.com/run/docs/deploying) or any other service provider
 
