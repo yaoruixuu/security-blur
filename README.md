@@ -24,7 +24,7 @@ export PROJECT_ID="my-project-123"
 
 Create and activate a virtual environment to isolate depencies:
 ```
-python -m venv your_venv_name
+python3 -m venv your_venv_name
 source your_venv_name/bin/activate
 ```
 
@@ -72,7 +72,11 @@ curl -X POST https://api-image-705613906606.us-central1.run.app//process_gcs \
      -d '{"gcs_uri": "your bucket uri"}'
 ```
 
-Test out already created endpoints on your own files in GCS buckets with the `requests` library by running `python test.py`
+Test out already created endpoints on your own files in GCS buckets with the `requests` library by running:
+```
+pip3 install -r requirements.txt
+python3 test.py
+```
 
 
 Find sample json output files of the API in `example outputs`
