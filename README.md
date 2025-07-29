@@ -25,7 +25,7 @@ Deploy container on Google Cloud Run (docs: https://cloud.google.com/run/docs/de
 
 # Using the API
 
-##Supports POST requests to https://api-image-705613906606.us-central1.run.app with your GCS bucket uri to your PDF
+## Supports POST requests to https://api-image-705613906606.us-central1.run.app with your GCS bucket uri to your PDF
 
 With Requests library:
 ```
