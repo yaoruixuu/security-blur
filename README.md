@@ -25,7 +25,7 @@ Deploy container on Google Cloud Run (docs: https://cloud.google.com/run/docs/de
 
 # Using the API
 
-Test out already created endpoints on your own files in GCS buckets with `test.py`
+Test out already created endpoints on your own files in GCS buckets with the `requests` library by running `python test.py`
 
 Endpoint: https://api-image-705613906606.us-central1.run.app
 
