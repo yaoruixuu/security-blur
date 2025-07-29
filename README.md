@@ -5,10 +5,10 @@ REST API uses Google Cloud Platform's Document AI OCR model to "sanitize" text b
 
 This API removes all of the tagged classified content of a PDF document:
 ## Before
-<img width="1396" height="1176" alt="image" src="https://github.com/user-attachments/assets/05230181-4aa9-41aa-a790-e5b74f8d3243" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/05230181-4aa9-41aa-a790-e5b74f8d3243" />
 
 ## After
-<img width="1446" height="1018" alt="image" src="https://github.com/user-attachments/assets/a3a41645-906a-488e-a5b2-f1087ddfb786" />
+<img width="475" alt="image" src="https://github.com/user-attachments/assets/a3a41645-906a-488e-a5b2-f1087ddfb786" />
 
 
 ## How to create endpoints:
