@@ -27,6 +27,27 @@ Deploy container on Google Cloud Run (docs: https://cloud.google.com/run/docs/de
 
 ## Supports POST requests to https://api-image-705613906606.us-central1.run.app with your GCS bucket uri to your PDF
 
+`/process_gcs` resource returns sanatized text in json:
+```
+{
+    "sanitized_text": "(U) Operational Briefing on Infrastructure Readiness - Northern Sector",
+    "segments_removed": 6,
+    "confidence_avg": 0.9833577573299408
+}
+```
+
+`/summarize` resource returns summary in json:
+```
+{
+    "original length": 1071,
+    "token count": {
+        "totalTokens": 117,
+        "cachedContentTokenCount": null
+    },
+    "summary": "The Northern Sector is actively enhancing its infrastructure readiness and logistical capabilities through several key initiatives"
+}
+```
+## Example calls
 With Requests library:
 ```
 url = "https://api-image-705613906606.us-central1.run.app//process_gcs"
