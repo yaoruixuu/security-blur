@@ -23,4 +23,6 @@ source your_venv_name/bin/activate
 
 Deploy container on Google Cloud Run (docs: https://cloud.google.com/run/docs/deploying) or any other service provider
 
+Test out already created endpoints on your own files in GCS buckets with `test.py`
+
 
