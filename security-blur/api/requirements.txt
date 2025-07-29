@@ -1,0 +1,5 @@
+python-dotenv
+fastapi>=0.101.0
+uvicorn[standard]==0.23.1
+google-cloud-documentai
+google-genai
